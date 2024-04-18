@@ -1,3 +1,4 @@
+-- CTE, UNION ALL, GROUP BY, ORDER BY, LIMIT, COUNT, DESC
 WITH user_friends_count AS (
     SELECT requester_id AS user_id
     FROM RequestAccepted

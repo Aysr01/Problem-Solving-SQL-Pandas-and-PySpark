@@ -1,4 +1,4 @@
--- Write your PostgreSQL query statement below
+-- CASE, WHEN, LAG, LEAD, IS NOT NULL, WINDOW FUNCTION
 SELECT
     id,
     CASE
