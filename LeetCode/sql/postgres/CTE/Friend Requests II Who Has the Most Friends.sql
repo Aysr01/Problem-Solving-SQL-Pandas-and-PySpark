@@ -11,4 +11,4 @@ SELECT user_id AS id, COUNT(user_id) AS num
 FROM user_friends_count
 GROUP BY user_id
 ORDER BY num DESC
-LIMIT 1
+LIMIT 1;

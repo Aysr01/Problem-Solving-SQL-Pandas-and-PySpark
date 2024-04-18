@@ -7,4 +7,4 @@ SELECT
         ELSE student
     END AS student
 FROM
-    Seat
+    Seat;
