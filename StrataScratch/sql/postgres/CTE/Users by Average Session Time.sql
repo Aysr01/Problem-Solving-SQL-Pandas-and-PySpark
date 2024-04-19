@@ -1,4 +1,4 @@
--- CTEs, CASE, DATE, GROUP BY, HAVING
+-- CTE, CASE, DATE, GROUP BY, HAVING
 WITH user_sessions AS (
   SELECT
     user_id,
