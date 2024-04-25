@@ -9,7 +9,7 @@ logging.basicConfig(level="INFO",
 tags_pattern = re.compile(r"(#|--)\s(.*)")
 problem_name = re.compile(r"^.*?([^\\\/]+).(py|sql)$")
 
-ps_platform = [folder for folder in os.listdir() if os.path.isdir(folder) and folder != ".git"]
+ps_platform = [folder for folder in os.listdir() if os.path.isdir(folder) and (not folder.__contains__(".git"))]
 ps_platform.sort()
 ps_platform
 
