@@ -1,3 +1,4 @@
+# ORDER BY, WHERE, INNER JOIN, DISTINCT, RANK
 # Import your libraries
 import pyspark
 from pyspark.sql import Window

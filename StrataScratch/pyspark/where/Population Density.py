@@ -1,3 +1,4 @@
+# ROUND, CAST, MAX, MIN, WHERE, COLLECT
 # Import your libraries
 import pyspark
 from pyspark.sql.functions import col, max, min, round
