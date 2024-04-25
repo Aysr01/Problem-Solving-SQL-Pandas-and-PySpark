@@ -54,7 +54,10 @@ def create_content_table(content_dict):
             m = len(solutions)
             for j in range(m):
                 row = "| {} | {} | {} | {} |\n"
-                name = "[{}]({})".format(problem_name.match(solutions[j][0]).group(1), solutions[j][0])
+                name = "[{}]({})".format(
+                    problem_name.match(solutions[j][0]).group(1),
+                    solutions[j][0].replace(" ", "%20").replace("\\","/") 
+                )
                 if i == 0 and j == 0:
                         table += row.format(platform, tech_name, name, solutions[j][1])
                 elif i != 0 and j == 0:
@@ -68,7 +71,7 @@ def update_readme(content_table):
         content = ""
         lines = file.readlines()
         for line in lines:
-            content += line
+            content = content + "\n" + line
             if line == "## Content Table":
                 content = content + "\n\n" + content_table
                 break
