@@ -61,9 +61,9 @@ def create_content_table(content_dict):
                 if i == 0 and j == 0:
                         table += row.format(platform, tech_name, name, solutions[j][1])
                 elif i != 0 and j == 0:
-                        table += row.format("", tech_name, name, solutions[j][1])
+                        table += row.format(" ", tech_name, name, solutions[j][1])
                 else:
-                        table += row.format("", "", name, solutions[j][1])
+                        table += row.format(" ", " ", name, solutions[j][1])
     return table
 
 def update_readme(content_table):
@@ -71,8 +71,8 @@ def update_readme(content_table):
         content = ""
         lines = file.readlines()
         for line in lines:
-            content = content + "\n" + line
-            if line == "## Content Table":
+            content += line
+            if line.__contains__("Content Table"):
                 content = content + "\n\n" + content_table
                 break
     with open("README.md", "w") as file:
