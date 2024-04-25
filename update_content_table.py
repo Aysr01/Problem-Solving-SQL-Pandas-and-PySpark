@@ -38,7 +38,7 @@ def extract_content():
                     raw_paths += [*map(lambda x: os.path.join(solution_path, x), os.listdir(solution_path))]
                 else:
                     solutions_paths.append(solution_path)
-            solutions_paths.sort()
+            solutions_paths.sort(key=lambda x: problem_name.match(x).group(1))
             content_dict[platform][technology] = [(solution, get_solution_tags(solution)) for solution in solutions_paths]
     return content_dict
 
