@@ -13,6 +13,7 @@ By solving a diverse range of problems on a daily basis, we can sharpen our anal
 | --- | --- | --- | --- |
 | LeetCode | pandas | [Exchange Seats](LeetCode/pandas/Exchange%20Seats.py) | SIZE, COPY, SHIFT, LOC, FILLNA, ILOC |
 |   |   | [Friend Requests II Who Has the Most Friends](LeetCode/pandas/Friend%20Requests%20II%20Who%20Has%20the%20Most%20Friends.py) | RENAME, GROUP BY, COUNT, CONCAT, SORT, HEAD |
+|   |   | [Rank Scores](LeetCode/pandas/Rank%20Scores.py) | SORT VALUES, DENSE RANK |
 |   | sql | [Customers Who Bought All Products](LeetCode/sql/postgres/COUNT/Customers%20Who%20Bought%20All%20Products.sql) | GROUP BY, HAVING, COUNT, DISTINCT |
 |   |   | [Department Top Three Salaries](LeetCode/sql/postgres/DENSE%20RANK/Department%20Top%20Three%20Salaries.sql) | DENSE RANK, PARTITION BY, ORDER BY, DESC, JOIN, WHERE |
 |   |   | [Exchange Seats](LeetCode/sql/postgres/LAG%20&%20LEAD/Exchange%20Seats.sql) | CASE, WHEN, LAG, LEAD, IS NOT NULL, WINDOW FUNCTION |
