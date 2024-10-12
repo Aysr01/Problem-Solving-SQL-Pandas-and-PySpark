@@ -22,8 +22,9 @@ By solving a diverse range of problems on a daily basis, we can sharpen our anal
 |   |   | [Human Traffic of Stadium](LeetCode/sql/postgres/ROW%20NUMBER/Human%20Traffic%20of%20Stadium.sql) | CTE, ROW_NUMBER, GROUP BY, HAVING, WHERE, IN, COUNT, WINDOW FUNCTION |
 |   |   | [Product Sales Analysis III](LeetCode/sql/postgres/RANK/Product%20Sales%20Analysis%20III.sql) | CTE, RANK, JOIN, WHERE |
 | StrataScratch | pandas | [Risky Projects](StrataScratch/pandas/JOIN/Risky%20Projects.py) | TOTAL SECONDS, JOIN, GROUP BY, SUM, ASTYPE |
-|   | pyspark | [Population Density](StrataScratch/pyspark/DENSE%20RANK/Population%20Density.py) | DENSE RANK, ORDER BY, ROUND, CAST, WHERE |
+|   | pyspark | [Most Profitable Companies](StrataScratch/pyspark/DENSE%20RANK/Most%20Profitable%20Companies.py) | DENSE RANK, ORDER BY, GROUP BY, SUM, WHERE, SELECT |
 |   |   | [Population Density](StrataScratch/pyspark/WHERE/Population%20Density.py) | ROUND, CAST, MAX, MIN, WHERE, COLLECT |
+|   |   | [Population Density](StrataScratch/pyspark/DENSE%20RANK/Population%20Density.py) | DENSE RANK, ORDER BY, ROUND, CAST, WHERE |
 |   |   | [Workers With The Highest Salaries](StrataScratch/pyspark/RANK/Workers%20With%20The%20Highest%20Salaries.py) | ORDER BY, WHERE, INNER JOIN, DISTINCT, RANK |
 |   | sql | [Activity Rank](StrataScratch/sql/postgres/ROW%20NUMBER/Activity%20Rank.sql) | CTE, ROW NUMBER, ORDER BY, GROUP BY, COUNT, DESCs |
 |   |   | [Most Profitable Companies](StrataScratch/sql/postgres/Most%20Profitable%20Companies.sql) | ORDER BY, LIMIT |
