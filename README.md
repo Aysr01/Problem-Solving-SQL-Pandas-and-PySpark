@@ -11,6 +11,7 @@ By solving a diverse range of problems on a daily basis, we can sharpen our anal
 
 | Platform | Technology | Solutions | Tags |
 | --- | --- | --- | --- |
+| DataLemur | sql | [Active User Retention](DataLemur/sql/Active%20User%20Retention.sql) | WITH, LAG, EXTRACT, date_trunc, interval, count, distinct, GROUP BY |
 | LeetCode | pandas | [Exchange Seats](LeetCode/pandas/Exchange%20Seats.py) | SIZE, COPY, SHIFT, LOC, FILLNA, ILOC |
 |   |   | [Friend Requests II Who Has the Most Friends](LeetCode/pandas/Friend%20Requests%20II%20Who%20Has%20the%20Most%20Friends.py) | RENAME, GROUP BY, COUNT, CONCAT, SORT, HEAD |
 |   |   | [Movie Rating](LeetCode/pandas/Movie%20Rating.py) | JOIN, GROUP BY, COUNT, SORT VALUES, QUERY, MEAN |
